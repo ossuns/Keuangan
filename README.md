@@ -1,5 +1,5 @@
 # Keuangan
-OpenSource di bidang Keuangan dapat berupa aplikasi Poin of Sales atau aplikasi keuangan yang lain
+OpenSource di bidang Keuangan dapat berupa aplikasi Poin of Sales, Akuntansi atau aplikasi keuangan yang lain
 Anggota kelompok ini adalah
 
 1. M3116071	BURHANUDIN WAKHID N 
