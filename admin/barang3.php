@@ -56,7 +56,7 @@ while($q=mysqli_fetch_array($periksa)){
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Tambah Barang Baru</h4>
+				<h4 class="modal-title">Tambah Menu Baru</h4>
 			</div>
 			<div class="modal-body">
 				<form action="tmb_brg_act.php" method="post">
@@ -78,7 +78,7 @@ while($q=mysqli_fetch_array($periksa)){
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Batal</button>
-					<input type="submit" class="btn btn-primary" value="Simpan">
+					<input type="submit" class="btn btn-default" value="Simpan">
 				</div>
 			</form>
 		</div>
