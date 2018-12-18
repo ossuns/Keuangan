@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 08 Des 2018 pada 07.40
+-- Generation Time: 18 Des 2018 pada 09.17
 -- Versi Server: 5.6.26
 -- PHP Version: 5.6.12
 
@@ -38,10 +38,20 @@ CREATE TABLE IF NOT EXISTS `barang` (
 --
 
 INSERT INTO `barang` (`kode_barang`, `nama_barang`, `harga_jual`, `stok_barang`) VALUES
-('B001', 'buku tulis kiky', 2000, 56),
-('B002', 'pensil 2B', 2500, 39),
-('B003', 'map', 5000, 30),
-('B004', 'Tipe-x', 4000, 45);
+('B001', 'Es Jeruk', 3000, 54),
+('B002', 'Es Teh', 2500, 39),
+('B003', 'Es Genderuwo', 5000, 29),
+('B004', 'Es Dawet', 4000, 44),
+('B005', 'Es Kampul', 3500, 100),
+('B006', 'Nasi Kucing', 2000, 100),
+('B007', 'Nasi Kuning', 4000, 100),
+('B008', 'Nasi Sayur', 4500, 100),
+('B009', 'Roti Bakar ', 5000, 20),
+('B010', 'Omlete', 6000, 20),
+('B011', 'Sate usus', 2000, 50),
+('B012', 'Terong Krispi', 1000, 50),
+('B013', 'Aneka Gorengan', 1000, 50),
+('B014', 'Aneka Krupuk', 1500, 50);
 
 -- --------------------------------------------------------
 
@@ -56,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `pegawai` (
   `alamat` varchar(200) NOT NULL,
   `no_telp` varchar(40) NOT NULL,
   `email` varchar(200) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data untuk tabel `pegawai`
@@ -67,7 +77,8 @@ INSERT INTO `pegawai` (`id_pegawai`, `username`, `nama`, `alamat`, `no_telp`, `e
 (3, 'cahyani', 'cahyani', 'sukabumi', '098787843736', 'cahyani@gmail.com'),
 (4, 'prabu', 'prabu Banyu wangi', 'sukabumi', '083452428310', 'prabu@yahoo.com'),
 (5, 'firman', 'firman', 'solo', '08747847737', 'firman.com'),
-(6, 'fadli', 'fadli', 'solo', '1234567890', 'fadli@gmail.com');
+(6, 'fadli', 'fadli', 'solo', '1234567890', 'fadli@gmail.com'),
+(7, 'dwilopes', 'Dwi Prasetyo', 'Salatiga', '0879383974', 'dwi@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -114,7 +125,9 @@ INSERT INTO `pelayanan` (`id_pelanggan`, `id_pegawai`, `tgl_pelayanan`) VALUES
 (4, 2, '2018-01-01'),
 (5, 2, '2018-01-01'),
 (6, 3, '2018-01-03'),
-(4, 2, '2018-01-04');
+(4, 2, '2018-01-04'),
+(1, 2, '2018-12-18'),
+(4, 2, '2018-12-18');
 
 -- --------------------------------------------------------
 
@@ -127,15 +140,6 @@ CREATE TABLE IF NOT EXISTS `pembelian` (
   `kode_barang` varchar(20) NOT NULL,
   `tgl_pembelian` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data untuk tabel `pembelian`
---
-
-INSERT INTO `pembelian` (`id_pelanggan`, `kode_barang`, `tgl_pembelian`) VALUES
-(4, 'B002', '2018-01-04'),
-(4, 'B001', '2018-01-04'),
-(1, 'B001', '2018-11-16');
 
 -- --------------------------------------------------------
 
@@ -184,6 +188,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 INSERT INTO `user` (`username`, `password`, `level`) VALUES
 ('admin', '21232f297a57a5a743894a0e4a801fc3', 3),
 ('cahyani', '4f33c80cd57c096bb6058428a6eca467', 2),
+('dwilopes', '047aeeb234644b9e2d4138ed3bc7976a', 2),
 ('fadli', '0a539e9da09b0ab58fd282832c07b6ab', 2),
 ('firman', '74bfebec67d1a87b161e5cbcf6f72a4a', 2),
 ('hjhj', '202cb962ac59075b964b07152d234b70', 1),
@@ -255,7 +260,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `pegawai`
 --
 ALTER TABLE `pegawai`
-  MODIFY `id_pegawai` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
+  MODIFY `id_pegawai` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `pelanggan`
 --
