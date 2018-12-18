@@ -21,6 +21,7 @@
 <body>	
 	<div class="container">
 		<?php 
+		//hai
 		if(isset($_GET['pesan'])){
 			if($_GET['pesan'] == "gagal"){
 				echo "<div style='margin-bottom:-55px' class='alert alert-danger' role='alert'><span class='glyphicon glyphicon-warning-sign'></span> Login Anda Gagal !! Mohon periksa kembali Username dan Password Anda</div>";

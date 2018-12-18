@@ -14,6 +14,7 @@ include 'config.php';
 		<td class="col-md-3">Telephone</td>
 	</tr>
 	<?php 
+	//coba
 		$data=mysqli_query($conn_mysql,"select * from pelanggan ");
 
 		while($d=mysqli_fetch_array($data)){
