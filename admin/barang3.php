@@ -1,7 +1,7 @@
 <?php include 'header3.php'; ?>
 
 <h3><span class="glyphicon glyphicon-briefcase"></span>  Daftar Menu</h3>
-<button style="margin-bottom:20px" data-toggle="modal" data-target="#myModal" class="btn btn-info col-md-2"><span class="glyphicon glyphicon-plus"></span>Tambah Barang</button>
+<button style="margin-bottom:20px" data-toggle="modal" data-target="#myModal" class="btn btn-info col-md-2"><span class="glyphicon glyphicon-plus"></span>Tambah Menu</button>
 <br/>
 <br/>
 
