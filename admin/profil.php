@@ -1,7 +1,7 @@
 <?php include 'header.php'; 
 include 'config.php';
 ?>
-<h3><span class="glyphicon glyphicon-user"></span>  Profile Anda</h3>
+<h3><span class="glyphicon glyphicon-user"></span>Profile Anda</h3>
 <br/>
 <br/>
 <br/>
@@ -12,6 +12,7 @@ include 'config.php';
 		<td class="col-md-3">Nama</td>
 		<td class="col-md-1">Alamat</td>
 		<td class="col-md-3">Telephone</td>
+		<td class="col-md-3">Email</td>
 	</tr>
 	<?php 
 	$user = $_SESSION['username'];
