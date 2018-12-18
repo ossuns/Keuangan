@@ -42,7 +42,7 @@
 					<div class="input-group">			
 						<input type="submit" class="btn btn-primary" value="Login">
 					</div>
-					<p>belum punya akun ? <a href="sign_up.php">Registrasi</a></p>
+					<p>belum terdaftar? <a href="sign_up.php">Registrasi</a></p>
 				</div>
 			</form>
 		</div>
