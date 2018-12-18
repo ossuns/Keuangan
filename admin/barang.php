@@ -10,7 +10,7 @@
 		<th class="col-md-4">Nama Menu</th>
 		<th class="col-md-3">Harga Jual</th>
 		<th class="col-md-1">Stok yang Tersedia</th>
-		<th class="col-md-3">Opsi</th>
+		<th class="col-md-3">Pemesanan</th>
 	</tr>
 	<?php 
 		$brg=mysqli_query($conn_mysql,"select * from barang ");
