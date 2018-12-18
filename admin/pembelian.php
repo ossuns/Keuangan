@@ -7,9 +7,9 @@ include 'config.php';
 <br/>
 <table class="table table-striped">
 	<tr>
-		<td class="col-md-1">Kode barang</td>
+		<td class="col-md-1">Kode Menu</td>
 		<td class="col-md-3">Tanggal Pesan</td>
-		<td class="col-md-3">Nama Barang</td>
+		<td class="col-md-3">Nama Menu</td>
 		<td class="col-md-3">Nama pelanggan</td>
 		<td class="col-md-3">Alamat pengiriman</td>
 		<td class="col-md-3">Telephone</td>

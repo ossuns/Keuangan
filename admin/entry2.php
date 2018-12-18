@@ -1,6 +1,6 @@
 <?php include 'header3.php'; ?>
 
-<h3><span class="glyphicon glyphicon-upload"></span>  Entry Barang</h3>
+<h3><span class="glyphicon glyphicon-upload"></span>  Entry Menu</h3>
 <br/>
 <br/>
 
@@ -28,7 +28,7 @@ while($q=mysqli_fetch_array($periksa)){
 	<tr>
 		<th class="col-md-1">Kode</th>
 				<th class="col-md-2">ID pegawai</th>
-		<th class="col-md-3">Nama Barang</th>
+		<th class="col-md-3">Nama Menu</th>
 		<th class="col-md-3">Harga Beli</th>
 		<th class="col-md-1">Jumlah</th>
 		<th class="col-md-4">Tanggal</th>

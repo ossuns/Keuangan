@@ -1,7 +1,7 @@
 <?php 
 include 'header3.php';
 ?>
-<h3><span class="glyphicon glyphicon-briefcase"></span>  Edit Barang</h3>
+<h3><span class="glyphicon glyphicon-briefcase"></span>  Edit Menu</h3>
 <a class="btn" href="barang2.php"><span class="glyphicon glyphicon-arrow-left"></span>  Kembali</a>
 <?php
 $id_brg=mysql_real_escape_string($_GET['id']);
@@ -15,11 +15,11 @@ while($d=mysqli_fetch_array($det)){
 				<td><input type="hidden" name="id" value="<?php echo $d['id'] ?>"></td>
 			</tr>
 			<tr>
-				<td>Kode Barang</td>
+				<td>Kode Menu</td>
 				<td><input type="text" class="form-control" name="kode" value="<?php echo $d['kode_barang'] ?>"></td>
 			</tr>
 			<tr>
-				<td>Nama Barang</td>
+				<td>Nama Menu</td>
 				<td><input type="text" class="form-control" name="nama" value="<?php echo $d['nama_barang'] ?>"></td>
 			</tr>
 			<tr>

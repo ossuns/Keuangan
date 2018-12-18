@@ -9,8 +9,8 @@ $user =$_SESSION['username'] ;
 </div>
 <table class="table table-striped">
 	<tr>
-		<td class="col-md-1">Kode Barang</td>
-		<td class="col-md-4">Nama Barang</td>
+		<td class="col-md-1">Kode Menu</td>
+		<td class="col-md-4">Nama Menu</td>
 		<td class="col-md-3">Tanggal Beli</td>
 		<td class="col-md-3">Harga</td>
 	</tr>

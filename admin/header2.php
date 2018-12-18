@@ -6,7 +6,7 @@
 	include 'cek.php';
 	include 'config.php';
 	?>
-	<title>Aplikasi Penjualan Sederhana</title>
+	<title>Aplikasi Penjualan Warung Es Ndelik</title>
 	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="../assets/js/jquery-ui/jquery-ui.css">
 	<script type="text/javascript" src="../assets/js/jquery.js"></script>
@@ -18,7 +18,7 @@
 	<div class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand">Aplikasi Penjualan</a>
+				<a class="navbar-brand">Aplikasi Penjualan Warung Es Ndelik</a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
@@ -75,8 +75,8 @@
 		<div class="row"></div>
 		<ul class="nav nav-pills nav-stacked">
 			<li class="active"><a href="index2.php"><span class="glyphicon glyphicon-home"></span>  Dashboard</a></li>			
-			<li><a href="barang2.php"><span class="glyphicon glyphicon-briefcase"></span>  Daftar Barang </a></li> 
-			<li><a href="entry.php"><span class="glyphicon glyphicon-upload"></span>  Entry Barang </a></li> 
+			<li><a href="barang2.php"><span class="glyphicon glyphicon-briefcase"></span>  Daftar Menu </a></li> 
+			<li><a href="entry.php"><span class="glyphicon glyphicon-upload"></span>  Entry Menu </a></li> 
 			<li><a id="pesan" href="pembelian.php"><span class="glyphicon glyphicon-file"></span>  Pesanan</a></li>     
 			<li><a href="profil2.php"><span class="glyphicon glyphicon-user"></span>  Profil Anda</a></li> 
 			<li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>  Logout</a></li>			

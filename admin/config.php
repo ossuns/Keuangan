@@ -1,3 +1,3 @@
 <?php 
-$conn_mysql = mysqli_connect("localhost","root", "", "aplikasi_penjualan");
+$conn_mysql = mysqli_connect("localhost","root", "", "aplikasi_penjualan"); //koneksi ke database
 ?>

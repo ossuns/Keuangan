@@ -1,6 +1,6 @@
 <?php include 'header2.php'; ?>
 
-<h3><span class="glyphicon glyphicon-upload"></span>  Entry Barang</h3>
+<h3><span class="glyphicon glyphicon-upload"></span>  Entry Menu</h3>
 <br/>
 <button style="margin-bottom:20px" data-toggle="modal" data-target="#myModal" class="btn btn-info col-md-2"><span class="glyphicon glyphicon-pencil"></span>  Entry</button>
 <br/>
@@ -26,7 +26,7 @@ while($q=mysqli_fetch_array($periksa)){
 <table class="table table-hover">
 	<tr>
 		<th class="col-md-1">Kode</th>
-		<th class="col-md-4">Nama Barang</th>
+		<th class="col-md-4">Nama Menu</th>
 		<th class="col-md-3">Harga Beli</th>
 		<th class="col-md-1">Jumlah</th>
 		<th class="col-md-1">Tanggal</th>

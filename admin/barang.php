@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<h3><span class="glyphicon glyphicon-briefcase"></span>  Daftar Barang</h3>
+<h3><span class="glyphicon glyphicon-briefcase"></span>  Daftar Menu</h3>
 <br/>
 <br/>
 <br/>
@@ -7,7 +7,7 @@
 <table class="table table-hover">
 	<tr>
 		<th class="col-md-1">Kode</th>
-		<th class="col-md-4">Nama Barang</th>
+		<th class="col-md-4">Nama Menu</th>
 		<th class="col-md-3">Harga Jual</th>
 		<th class="col-md-1">Stok yang Tersedia</th>
 		<th class="col-md-3">Opsi</th>
