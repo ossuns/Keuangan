@@ -6,7 +6,7 @@
 	include 'cek.php';
 	include 'config.php';
 	?>
-	<title>Aplikasi Penjualan Sederhana</title>
+	<title>Aplikasi Penjualan Online Terpercaya</title>
 	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="../assets/js/jquery-ui/jquery-ui.css">
 	<script type="text/javascript" src="../assets/js/jquery.js"></script>
@@ -18,7 +18,7 @@
 	<div class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand">Aplikasi Penjualan</a>
+				<a class="navbar-brand">Aplikasi Penjualan Online Terpercaya</a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
@@ -38,8 +38,8 @@
 		<div class="row"></div>
 		<ul class="nav nav-pills nav-stacked">
 			<li class="active"><a href="index3.php"><span class="glyphicon glyphicon-home"></span>  Dashboard</a></li>			
-			<li><a href="barang3.php"><span class="glyphicon glyphicon-briefcase"></span>  Daftar Barang </a></li> 
-			<li><a href="entry2.php"><span class="glyphicon glyphicon-upload"></span>  Entry Barang </a></li>   
+			<li><a href="barang3.php"><span class="glyphicon glyphicon-briefcase"></span>  Daftar Menu </a></li> 
+			<li><a href="entry2.php"><span class="glyphicon glyphicon-upload"></span>  Entry Menu </a></li>   
 			<li><a href="riwayat.php"><span class="glyphicon glyphicon-file"></span>  Riwayat Layanan </a></li>
 			<li><a href="registrasi.php"><span class="glyphicon glyphicon-plus-sign"></span>  Tambah Pegawai</a></li>
 			<li><a href="profil_pegawai.php"><span class="glyphicon glyphicon-user"></span>  Profil Pegawai</a></li> 
