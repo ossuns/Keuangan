@@ -44,8 +44,8 @@ while($q=mysqli_fetch_array($periksa)){
 			<td>Rp.<?php echo number_format($b['harga_jual']) ?>,-</td>
 			<td><?php echo $b['stok_barang'] ?></td>
 			<td>
-				<a href="edit.php?id=<?php echo $b['kode_barang']; ?>" class="btn btn-default">Ubah</a>
-				<a onclick="if(confirm('Apakah anda yakin ingin Menghapus Menu ini ?')){ location.href='hapus.php?id=<?php echo $b['kode_barang'];?>' }" class="btn btn-default">Hapus</a>
+				<a href="edit.php?id=<?php echo $b['kode_barang']; ?>" class="btn btn-warning">Edit</a>
+				<a onclick="if(confirm('Apakah anda yakin ingin Menghapus Menu ini ?')){ location.href='hapus.php?id=<?php echo $b['kode_barang'];?>' }" class="btn btn-danger">Hapus</a>
 			</td>
 		</tr>		
 		<?php 
